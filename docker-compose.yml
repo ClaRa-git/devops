@@ -1,0 +1,9 @@
+services:
+
+  node:
+    image: claracrdocker/devops
+    container_name: nodedevops
+    ports:
+      -"3000:3000"
+    volumes:
+      - ./app:/app

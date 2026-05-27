@@ -1,0 +1,14 @@
+{
+  "name": "devops",
+  "version": "1.0.0",
+  "description": "ci/cd testing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"lancer un test\" && exit 1"
+  },
+  "dependencies": {
+    "express":"^5.2.1"
+  },
+  "author": "claRa",
+  "license": "ISC"
+}
